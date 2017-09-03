@@ -1,0 +1,223 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: helvetica;
+  line-height: 1.4rem;
+}
+
+header {
+  background: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+nav {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 1rem;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+}
+
+.main-banner {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+img {
+  border-style: none;
+}
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0px;
+}
+
+.info .title {
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+footer {
+  background-color: azure;
+  padding: 4rem 0px;
+  display: flex;
+  align-content: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+  }
+
+    header {
+      padding-top: 0px;
+      height: 22rem;
+    }
+
+    .main-banner {
+      padding: 0.75rem 4rem;
+      margin-top: 5rem;
+      margin-right: 2rem;
+    }
+
+    h1 {
+      font-size: 1.33rem;
+    }
+}
+
+@media only screen and (max-width: 720px){
+  .container {
+    max-width: 100%;
+  }
+
+  header {
+    padding-top: 0px;
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+.menu {
+  display: none;
+}
+
+.mobile-menu {
+  display: inline-block;
+}
+
+.main-banner {
+  padding: 0 1rem;
+  margin: 8rem auto 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.supporting {
+  flex-direction: column;
+  align-items:center;
+  justify-content: flex-start;
+  margin: 3.77rem 0px;
+}
+
+.service span {
+  font-size: 0.77rem;
+}
+
+.service {
+  height: auto;
+  margin: 0.77rem;
+}
+
+.info {
+  width: auto;
+}
+
+.info .title {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.info p {
+  font-size: 0.77rem;
+}
+
+footer {
+  justify-content: center;
+}
+
+footer div {
+  display: none;
+}
